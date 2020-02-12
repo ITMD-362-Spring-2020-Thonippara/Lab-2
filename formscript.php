@@ -13,27 +13,27 @@ $phone = $_REQUEST['phone_field'];
     <meta charset="UTF-8">
     <title>Response Summary</title>
     <style>
-		.box {
-			border: 1px solid #444;
-			background-color: #ccc;
-			margin: 20px 20px;
-			padding: 5px 20px;
-		}
+      .box {
+        border: 1px solid #444;
+        background-color: #ccc;
+        margin: 20px 20px;
+        padding: 5px 20px;
+      }
     </style>
   </head>
   <body>
-	<div style="text-align:center;">
-    <h1>Response Summary</h1>
-    <p>This page will display the results of the form that was submitted to it.</p>
+    <div style="text-align:center;">
+      <h1>Response Summary</h1>
+      <p>This page will display the results of the form that was submitted to it.</p>
     </div>
     <h1>Thank you for your submission, <?php echo htmlentities($firstName) ?>!</h1>
-	<div class="box">
-    <h2>This section contains the information provided in the Contact Info section:</h2>
-    <p><strong>First Name:</strong> <?php echo htmlentities($firstName) ?></p>
-		<p><strong>Last Name:</strong> <?php echo htmlentities($lastName) ?></p>
-    <p><strong>Date of Birth:</strong> <?php echo htmlentities($date) ?></p>
-    <p><strong>Email Address:</strong> <?php echo htmlentities($email) ?></p>
-		<p><strong>Phone Number:</strong> <?php echo htmlentities($phone) ?></p>
-	</div>
-</body>
+    <div class="box">
+      <h2>This section contains the information provided in the Contact Info section:</h2>
+      <p><strong>First Name:</strong> <?php echo htmlentities($firstName) ?></p>
+      <p><strong>Last Name:</strong> <?php echo htmlentities($lastName) ?></p>
+      <p><strong>Date of Birth:</strong> <?php echo htmlentities($date) ?></p>
+      <p><strong>Email Address:</strong> <?php echo htmlentities($email) ?></p>
+      <p><strong>Phone Number:</strong> <?php echo htmlentities($phone) ?></p>
+    </div>
+  </body>
 </html>
