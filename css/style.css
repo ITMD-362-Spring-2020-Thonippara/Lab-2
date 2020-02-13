@@ -5,9 +5,20 @@ htlm {
   background-color: #83C9D2;
 }
 
+body {
+  width: 100%;
+  margin: 0, auto;
+  background-color: #83C9D2:
+}
+
 h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 24px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
 }
 
 label {
@@ -18,7 +29,7 @@ label {
 }
 
 input {
-  width: 100%;
+  width: 90%;
   padding: 12px 20px;
   margin: 8px 0;
   border: 1px solid #ccc;
