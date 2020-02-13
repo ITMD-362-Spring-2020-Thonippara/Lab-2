@@ -20,7 +20,13 @@ h1 {
 }
 
 p {
+  margin: 0 0.625em;
   text-align: center;
+}
+
+legend {
+  margin: 0 0.625em;
+  font-size: 1em;
 }
 
 label {
