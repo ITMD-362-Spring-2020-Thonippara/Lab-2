@@ -5,12 +5,14 @@ htlm {
    background-color: #83C9D2;
 }
 
-
-
 label {
   display: block;
   background-color: #66ccff;
   text-align: center;
+}
+
+#submit {
+   background-color: #FFDF00;
 }
 
 @media screen and (min-width: 480px) {
