@@ -15,18 +15,19 @@ h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 3.375em;
   font-weight: bold;
+  font-color: #FFDF00;
   text-align: center;
 }
 
 p {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 label {
   display: block;
   text-align: center;
-  background-color: #66ccff;
+  background-color: #cf71af;
   font-size: 1em;
 }
 
