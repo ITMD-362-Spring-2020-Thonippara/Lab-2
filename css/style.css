@@ -12,6 +12,8 @@ body {
 }
 
 h1 {
+  padding: 10px;
+  margin: 0 10px;
   font-family: 'Dancing Script', cursive;
   font-size: 3.375em;
   text-align: center;
@@ -37,7 +39,7 @@ input {
   box-sizing: border-box;
 }
 
-#submit {
+#subscribe {
    background-color: #FFDF00;
 }
 
@@ -60,7 +62,7 @@ input {
     width: 100%;
   }
   
-  #submit {
+  #subscribe {
     width: 30%;
     display: block;
     margin: auto;
@@ -79,7 +81,7 @@ input {
     font-size: 1em;
   }
   
-  #submit {
+  #subscribe {
     width: 26%;
   }
 }
