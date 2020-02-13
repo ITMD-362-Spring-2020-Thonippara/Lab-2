@@ -5,7 +5,7 @@ htlm {
 body {
   padding: 0.625em;
   width: 100%;
-  margin: 0, auto;
+  margin: 0 auto;
   background-color: #83C9D2;
   font-family: 'Lato', sans-serif;
 }
@@ -15,7 +15,7 @@ h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 3.375em;
   font-weight: bold;
-  font-color: #FFDF00;
+  color: #FFDF00;
   text-align: center;
 }
 
