@@ -4,33 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <link rel="stylesheet" media="screen" href="css/reset.css" />
-    <link rel="stylesheet" media="screen" href="css/screen.css" />
-    <title>Lab 2</title>
+    <link rel="stylesheet" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lato&display=swap" rel="stylesheet">
+    <title>Angelic Cookies</title>
   </head>
   <body>
-    <h1>Some heading</h1>
-    <p>Some paragraph</p>
-    <form method="POST" autocomplete="on" action="https://github.com/ITMD-362-Spring-2020-Thonippara/Lab-2/blob/master/formscript.php" enctype="multipart/form-data">
+    <h1>Cookie Club Rewards</h1>
+    <p>Sign up for Cookie Club Rewards to get a free treat on every 10th visit and on your birthday! Learn about our ongoing deals and seasonal flavors!</p>
+    <form method="GET" autocomplete="on" action="#null" enctype="multipart/form-data">
       <fieldset>
         <legend><strong>Contact Info</strong></legend>
         <div>
-          <p><label>First Name: <input type="text" name="first_name_field" placeholder="Enter your first name"></label></p>
+          <label for="name">First Name:</label>
+          <input type="text" id="name" name="first_name_field" placeholder="Enter your first name" />
         </div>
         <div>
-          <p><label>Last Name: <input type="text" name="last_name_field" placeholder="Enter your last name"></label></p>
+          <label for="name">Last Name:</label>
+          <input type="text" id="name" name="last_name_field" placeholder="Enter your last name" />
         </div>
         <div>
-          <p><label>Date of Birth: <input type="date" name="dob_field" placeholder="Enter your date of birth"></label></p>
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob_field" placeholder="Enter your date of birth" />
         </div>
         <div>
-          <p><label>Email Address: <input type="email" name="email_field" placeholder="Enter your email address"></label></p>
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email_field" placeholder="Enter your email" />
         </div>
         <div>
-          <p><label>Phone Number: <input type="text" name="phone_field" placeholder="Enter your phone number"></label></p>
+          <label for="phnum">Phone Number:</label>
+          <input type="text" id="phnum" name="phone_field" placeholder="Enter your phone number" />
         </div>
       </fieldset>
       <div>
-        <p><input type="submit" value="Submit"></p>
+        <p><input type="submit" id="subscribe" value="Subscribe"></p>
       </div>
     </form>
   </body>
