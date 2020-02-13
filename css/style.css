@@ -3,7 +3,6 @@ htlm {
 }
 
 body {
-  margin: 0 0.625em;
   padding: 0.625em;
   width: 100%;
   margin: 0, auto;
@@ -12,6 +11,7 @@ body {
 }
 
 h1 {
+  margin: 0 0.625em;
   font-family: 'Dancing Script', cursive;
   font-size: 3.375em;
   font-weight: bold;
@@ -21,11 +21,13 @@ h1 {
 
 p {
   text-align: center;
-  font-size: 1em;
 }
 
 label {
+  width: 90%;
   display: block;
+  margin: 0.5em 0;
+  padding: 0.75em 1.25em;
   text-align: center;
   background-color: #cf71af;
   font-size: 1em;
@@ -33,8 +35,8 @@ label {
 
 input {
   width: 90%;
-  padding: 0.75em 1.25em;
   margin: 0.5em 0;
+  padding: 0.75em 1.25em;
   border: 0.0625em solid #ccc;
   border-radius: 0.375em;
   box-sizing: border-box;
