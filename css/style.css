@@ -22,6 +22,7 @@ h1 {
 p {
   margin: 0 0.625em;
   text-align: center;
+  font-size: 1.5em;
 }
 
 legend {
@@ -33,6 +34,7 @@ label {
   width: 90%;
   display: block;
   padding: 0.75em 1.25em;
+  border-radius: 0.375em;
   text-align: center;
   background-color: #cf71af;
   font-size: 1em;
@@ -40,6 +42,7 @@ label {
 
 input {
   width: 90%;
+  display: block;
   margin: 0.5em 0;
   padding: 0.75em 1.25em;
   border: 0.0625em solid #ccc;
@@ -81,14 +84,10 @@ input {
 @media screen and (min-width: 768px) {
   #container {
     width: 500px;
-    float: right;
+    float: center;
     margin-right: 5%;
   }
-  
-  img {
-    float: left;
-}
-  
+
   .font-size {
     font-size: 1em;
   }
