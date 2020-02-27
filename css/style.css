@@ -3,15 +3,16 @@ html {
 }
 
 body {
-  padding: 0.625em;
   width: 100%;
   margin: 0 auto;
+  padding: 0.625em;
   background-color: #83C9D2;
   font-family: 'Lato', sans-serif;
 }
 
 h1 {
   margin: 0 0.625em;
+  padding: 0.625em;
   font-family: 'Dancing Script', cursive;
   font-size: 3.375em;
   font-weight: bold;
@@ -21,12 +22,14 @@ h1 {
 
 p {
   margin: 0 0.625em;
+  padding: 0.625em;
   text-align: center;
   font-size: 1.5em;
 }
 
 legend {
   margin: 0 0.625em;
+  padding: 0.625em;
   font-size: 1em;
 }
 
