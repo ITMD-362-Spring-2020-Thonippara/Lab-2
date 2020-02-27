@@ -72,14 +72,6 @@ input {
     font-size: 1.2em;
   }
   
-  input {
-    width: 100%;
-  }
-  
-  label {
-    width: 100%;
-  }
-  
   #subscribe {
     width: 30%;
     display: block;
