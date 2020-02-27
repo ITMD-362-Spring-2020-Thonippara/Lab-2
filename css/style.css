@@ -67,7 +67,11 @@ input {
     margin: auto;
     width: 65%;
   }
-
+  
+  input {
+    width: 100%;
+  }
+  
   .fontsize {
     font-size: 1.2em;
   }
